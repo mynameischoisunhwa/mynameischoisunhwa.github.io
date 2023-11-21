@@ -1,0 +1,97 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: inherit;
+	/* font-size: 100%; */
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face{
+	font-family: 'RobotoR';
+	src: url(../../assets/fonts/RobotoR.woff) format('woff');
+	font-weight: 500;
+}
+
+:root {
+  --color-primary: #07a300;
+  --color-secondary: rgb(162, 0, 255);
+  --color-tertiary: rgb(89, 0, 255);
+  --color-black: rgb(13, 3, 31);
+	--color-white: rgb(250, 250, 250);
+  --color-lightGray: rgb(230, 227, 238);
+  --color-gray: rgb(50, 49, 51);
+}
+
+html, body{
+	/* overflow: hidden; */
+	position: relative;
+	z-index: 1;
+	height: 100vh;
+	font-family: RobotoR, sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: var(--color-black);
+	scroll-behavior: smooth;
+	user-select:none;
+	-webkit-touch-callout:none;
+}
+
+::before,
+::after {
+	box-sizing: border-box;
+	/* font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  color: var(--fc-primary); */
+}
+
+button {
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*# sourceMappingURL=main.fdc631156463c3601fb8.css.map*/
