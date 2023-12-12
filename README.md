@@ -1,1 +1,0 @@
-# mynameischoisunhwa.github.io
